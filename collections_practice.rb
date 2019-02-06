@@ -32,4 +32,7 @@ def find_a(array)
   array.find{|string| array.start_with?("a")}
 end 
 
-def sum_array
+def sum_array(array)
+  sum = 0 
+  array.inject(0) { |sum, a| sum + a }
+end 

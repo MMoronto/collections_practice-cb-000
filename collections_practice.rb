@@ -29,5 +29,5 @@ def reverse_array(array)
 end
 
 def find_a(array)
-  array.find{|}
+  array.find{|string| array.start_with?("a")}
 end 

@@ -28,6 +28,6 @@ def reverse_array(array)
   array
 end
 
-def find_a
+def find_a(array)
   
 end 

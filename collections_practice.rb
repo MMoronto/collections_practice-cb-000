@@ -31,3 +31,5 @@ end
 def find_a(array)
   array.find{|string| array.start_with?("a")}
 end 
+
+def sum_array

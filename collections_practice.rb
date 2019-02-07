@@ -43,7 +43,7 @@ def sum_array(array)
 end 
 
 def add_s(array)
-  array.collect do { |elem| 
+  array.collect { |elem| 
    if array[1] == elem
      elem 
     else 

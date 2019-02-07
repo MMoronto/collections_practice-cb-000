@@ -43,5 +43,11 @@ def sum_array(array)
 end 
 
 def add_s(array)
-  array.map { |plu| plu + "s"}
+  array.collect do { |elem| 
+   if array[1] == elem
+     elem 
+    else 
+    elem + "s"
+  end  
+  }
 end 

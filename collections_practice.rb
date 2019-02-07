@@ -29,7 +29,7 @@ def reverse_array(array)
 end
 
 #def find_a(array)
-  #array.find{|string| array.start_with?("a")}
+  #array.find{|string| string.start_with?("a")}
 #end 
 
 def sum_array(array)
@@ -38,5 +38,5 @@ def sum_array(array)
 end 
 
 def add_s(array)
-  
+  array.map { |plu| plu + "s"}
 end 

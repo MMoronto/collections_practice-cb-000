@@ -29,7 +29,7 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.each { |sign| sign.substitute_with?("s", "$")}
+    array.each { |elem| elem[2] = "$"}
 end 
 
 

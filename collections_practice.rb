@@ -28,9 +28,9 @@ def reverse_array(array)
   array
 end
 
-#def find_a(array)
-  #array.find{|string| string.start_with?("a")}
-#end 
+def find_a(array)
+  array.find{|string| string.start_with?("a")}
+end 
 
 def sum_array(array)
   sum = 0 

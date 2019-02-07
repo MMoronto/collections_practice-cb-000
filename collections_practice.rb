@@ -28,6 +28,11 @@ def reverse_array(array)
   array
 end
 
+def kesha_maker(array)
+  array.each { |sign| sign.substitute_with?("s", "$")}
+end 
+
+
 def find_a(array)
   array.find{|string| string.start_with?("a")}
 end 
